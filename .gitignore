@@ -6,6 +6,12 @@
 # Files for the ART/Dalvik VM
 *.dex
 
+.firebase
+
+
+.DS_Store
+.idea
+
 # Java class files
 *.class
 
@@ -58,7 +64,7 @@ captures/
 .externalNativeBuild
 
 # Google Services (e.g. APIs or Firebase)
-# google-services.json
+google-services.json
 
 # Freeline
 freeline.py
@@ -71,6 +77,7 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+google-service.json
 
 # Version control
 vcs.xml
