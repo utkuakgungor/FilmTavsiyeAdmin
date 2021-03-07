@@ -1,3 +1,9 @@
+google-services.json
+TMDBApi.java
+.DS_Store
+.idea
+app/release
+.gradle
 # Built application files
 *.apk
 *.ap_
