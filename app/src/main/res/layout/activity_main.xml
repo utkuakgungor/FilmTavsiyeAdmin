@@ -11,12 +11,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:id="@+id/editID"
+        android:hint="ID"
         android:layout_marginTop="100dp"/>
     <EditText
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:id="@+id/editTur"
+        android:hint="Tur"
         android:layout_below="@+id/editID"
         android:layout_marginTop="14dp"/>
     <EditText
@@ -24,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:id="@+id/editTurEng"
+        android:hint="Tur Eng"
         android:layout_below="@id/editTur"
         android:layout_marginTop="14dp"/>
     <EditText
@@ -31,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:id="@+id/editSinif"
+        android:hint="Sınıf"
         android:layout_below="@id/editTurEng"
         android:layout_marginTop="14dp"/>
     <com.google.android.material.button.MaterialButton
